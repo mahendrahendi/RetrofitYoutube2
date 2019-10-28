@@ -62,7 +62,7 @@ public void retro() {
             Log.d(TAG, "STATUS HASIL: "+response.toString());
 
             List<Hero> heroList = response.body().getResults();
-            ArrayList<Hero> weatherItemses2 = response.body().getResults();
+ 
 
 
 
